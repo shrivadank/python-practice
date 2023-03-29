@@ -7,3 +7,17 @@ a=int(two_digit_number[0])
 b=int(two_digit_number[1])
 two_digit_number=a+b
 print(two_digit_number)
+
+
+
+#Mathematical Operations
+
+
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+b=float(weight)
+a=float(height)
+
+bmi=int(b/(a*a))
+print(bmi)
